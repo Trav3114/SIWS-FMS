@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 11, 2024 at 05:30 PM
+-- Generation Time: Sep 22, 2025 at 05:21 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -40,7 +40,7 @@ CREATE TABLE `storage` (
 --
 
 INSERT INTO `storage` (`store_id`, `filename`, `file_type`, `date_uploaded`, `stud_no`) VALUES
-(1, '1fpy6rc0oxo31.jpg', 'image/jpeg', '2020-04-08, 01:25 AM', 12345);
+(2, 'db_sfms.sql', 'application/octet-st', '2025-04-12, 08:06 PM', 20222337067);
 
 -- --------------------------------------------------------
 
@@ -64,7 +64,7 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`stud_id`, `stud_no`, `roll_no`, `firstname`, `lastname`, `gender`, `yr&sec`, `password`) VALUES
-(1, 20222337067, 38040, 'Aaththi', 'Raja', 'Male', 'TYA', '93ce6a4d74eb7d15e02c9da4da0f4b54');
+(1, 20222337067, 39027, 'Aaththi', 'Raja', 'Male', 'TYCS', '93ce6a4d74eb7d15e02c9da4da0f4b54');
 
 -- --------------------------------------------------------
 
@@ -118,7 +118,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `storage`
 --
 ALTER TABLE `storage`
-  MODIFY `store_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `store_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `student`
@@ -130,7 +130,7 @@ ALTER TABLE `student`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
