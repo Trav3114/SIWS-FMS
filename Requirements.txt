@@ -1,0 +1,29 @@
+Requirements:-
+
+1]Windows 11 , Xampp , Any Browser , phpmyAdmin
+
+process:-
+
+step1:-install xampp,check the working of Apache and MySQL
+
+step2:-unzip the "SIWS File Management" folder
+
+step3:-cut the SIWS File Management and paste it in C:\xampp\htdocs
+
+step4:-Open PhpMyAdmin in any Browser 
+
+Step5:-create Database Named db_sfms 
+
+Step6:-import the sql file in the "db_sfms" Database
+
+Step7:-Search the Below link on Browser to open Student Login and Admin Login
+Student login:-
+http://localhost/SIWS%20File%20Management%20System/index.php
+
+Admin Login:-
+http://localhost/SIWS%20File%20Management%20System/admin/
+
+@Admin:-
+
+username:-SIWS
+Password:-BscCS
